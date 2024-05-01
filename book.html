@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmonkey App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="main-header flex-alc">
+        <h1>Bookmonkey App</h1>
+        <nav class="main-nav">
+            <menu class="main-nav__list flex-alc">
+                <li><a href="./index.html">All Books</a></li>
+                <li><a href="./favorites.html">Favorites</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main class="single-book">
+        <img src="https://picsum.photos/500" alt="Random Placeholder for book cover" id="img-book-cover" />
+        <article class="book-information">
+            <h2 id="book-title">Buchtitel</h2>
+            <p id="book-author">Max Mustermann</p>
+            <br />
+            <p id="book-isbn">ISBN: 123456789</p>
+            <h3>Ausschnitt:</h3>
+            <p class="book-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                voluptatibus alias similique voluptatum dicta a?
+
+            </p>
+        </article>
+    </main>
+    <script type="module" src="book.js"></script>
+</body>
+
+</html>
