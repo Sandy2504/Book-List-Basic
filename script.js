@@ -4,7 +4,7 @@ let currentPage = 1;
 const booksPerPage = 5; // 5 Bücher pro Seite
 
 // URL für die Buchliste
-const booklistUrl = "http://localhost:4730/books/";
+const booklistUrl = "http://localhost:4730/books";
 
 // Funktion zum Laden der Buchliste beim Start der Anwendung
 function loadBookList() {
